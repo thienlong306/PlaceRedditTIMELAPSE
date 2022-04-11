@@ -1,6 +1,6 @@
 var index = 0;
 setInterval(() => {
-    $("img").attr("src", `scraperPlaceReddit/data/${listImg[++index].nameFile}`);
+    $("img").attr("src", `data/${listImg[++index].nameFile}`);
     if(index==listImg.length-1){
       index=0;
     }
