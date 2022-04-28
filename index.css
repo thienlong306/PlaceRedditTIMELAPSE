@@ -1,41 +1,47 @@
-html,body{
+html,
+body {
   overflow: hidden;
   height: 100%;
   width: 100%;
 }
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-  }
-  
-  .image {
-    height: 80%;
-  }
-  
-  .image img {
-    height: 100%;
-  }
-  
-  .loupe {
-    display: none;
-    /* left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.image {
+  height: 80%;
+}
+.listImage {
+  height: 100%;
+}
+.image img {
+  height: 100%;
+}
+.hide{
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+}
+.loupe {
+  display: none;
+  /* left: 0;
     top: 0; */
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    background-color: black;
-    border: 1px solid black;
-    box-shadow: 5px 5px 12px black;
-    background: rgba(0, 0, 0, 0.25);
-    cursor: none;
-    overflow: hidden;
-  }
-  
-  .loupe img {
-    position: absolute;
-    right: 0;
-  }
-  
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  border: 1px solid black;
+  box-shadow: 5px 5px 12px black;
+  background: rgba(0, 0, 0, 0.25);
+  cursor: none;
+  overflow: hidden;
+}
+
+.loupe img {
+  position: absolute;
+  right: 0;
+}
